@@ -26,7 +26,7 @@ public class Alumno extends Persona implements Reportable{
     }
     public void agregarMulta(double monto) {
         if (monto>0) {
-            this.multas += 0.0;
+            this.multas += monto;
         }
     }
     public void pagarMultas() {

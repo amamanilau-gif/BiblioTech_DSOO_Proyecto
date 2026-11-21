@@ -101,5 +101,8 @@ public class Biblioteca {
     public ArrayList<Prestamo> getPrestamos() {
         return prestamos;    
     }
+    public ArrayList<Bibliotecario> getBibliotecarios() {
+        return bibliotecarios;
+    }
 }
 
